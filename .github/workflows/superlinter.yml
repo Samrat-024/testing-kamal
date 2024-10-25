@@ -10,5 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Super-linter
-        uses: github/super-linter@v3
+      - name: Lint Code Base
+        uses: super-linter/super-linter@v5.6.1
