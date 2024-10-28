@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Lint Code Base
-        uses: super-linter/super-linter@v5.6.1
+        uses: super-linter/super-linter@v7.1.0
